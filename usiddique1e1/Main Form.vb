@@ -20,4 +20,12 @@ Public Class frmMain
         lblTax.Text = Val(txtAssessed.Text) * 0.015
         lblTax.Text = Format(lblTax.Text, "currency")
     End Sub
+
+    Private Sub lblTax_Click(sender As Object, e As EventArgs) Handles lblTax.Click
+
+    End Sub
+
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
