@@ -11,7 +11,7 @@ Public Class frmMain
         ' prepare screen for the next property tax calculation
         txtAssessed.Text = String.Empty
         lblTax.Text = String.Empty
-        ' send the focus to the Assessed Value box
+        ' send the focus to the Assessed Value box 
         txtAssessed.Focus()
     End Sub
 
