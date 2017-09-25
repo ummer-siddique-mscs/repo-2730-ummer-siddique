@@ -21,4 +21,8 @@ Public Class frmName
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
         lblAvgScore.Text = Format((Val(txtscore1.Text) + Val(txtscore2.Text) + Val(txtscore3.Text)) / 3, "standard")
     End Sub
+
+    Private Sub frmName_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
