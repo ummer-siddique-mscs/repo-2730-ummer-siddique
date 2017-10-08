@@ -10,7 +10,6 @@ Public Class frmMain
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         ' prepare screen for the next set of values
         txtHours.Text = "0.00"
-        txtPayRate.Text = "0.00"
         txtName.Text = String.Empty
         lblGross.Text = String.Empty
         lblFWT.Text = String.Empty
@@ -18,11 +17,11 @@ Public Class frmMain
         lblState.Text = String.Empty
         lblNet.Text = String.Empty
         ' send the focus to the Name box
-        txtName.Focus()
+        btnExit.Focus()
     End Sub
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
         'Calculate gross, withholdings, and net pay
-        lblGross.Text = Format(Val(txtHours.Text) * Val(txtPayRate.Text), "fixed")
+        Label2.Text = (5).ToString("N2")
         lblFWT.Text = Format(Val(lblGross.Text) * 0.2, "fixed")
         lblFICA.Text = Format(Val(lblGross.Text) * 0.08, "fixed")
         lblState.Text = Format(Val(lblGross.Text) * 0.03, "fixed")
