@@ -31,6 +31,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "usiddique2d1", "usiddique2d
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "usiddique2e1", "usiddique2e1\usiddique2e1.vbproj", "{49B6BFC5-5D74-475D-87B5-600B51473780}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "usiddique2g1", "usiddique2g1\usiddique2g1.vbproj", "{B448F313-7C90-44A9-AF5D-8632D3A0B73F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{49B6BFC5-5D74-475D-87B5-600B51473780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B6BFC5-5D74-475D-87B5-600B51473780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B6BFC5-5D74-475D-87B5-600B51473780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B448F313-7C90-44A9-AF5D-8632D3A0B73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B448F313-7C90-44A9-AF5D-8632D3A0B73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B448F313-7C90-44A9-AF5D-8632D3A0B73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B448F313-7C90-44A9-AF5D-8632D3A0B73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
