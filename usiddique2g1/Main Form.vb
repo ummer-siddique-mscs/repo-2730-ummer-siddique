@@ -8,23 +8,6 @@ Option Infer Off
 
 Public Class frmMain
 
-    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        Me.Close()
-    End Sub
-
-    Private Sub txtPrice_Enter(sender As Object, e As EventArgs) Handles txtPrice.Enter
-        txtPrice.SelectAll()
-    End Sub
-
-    Private Sub txtQuantity_Enter(sender As Object, e As EventArgs) Handles txtQuantity.Enter
-        txtQuantity.SelectAll()
-    End Sub
-
-    Private Sub ClearLabel(sender As Object, e As EventArgs) Handles txtPrice.TextChanged, txtQuantity.TextChanged
-        lblDiscount.Text = String.Empty
-        lblTotalDue.Text = String.Empty
-    End Sub
-
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalcIf.Click
         ' calculate discount and total due using If
 
@@ -175,5 +158,23 @@ Public Class frmMain
             ' cancel the key
             e.Handled = True
         End If
+    End Sub
+
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
+    End Sub
+
+    Private Sub txtPrice_Enter(sender As Object, e As EventArgs) Handles txtPrice.Enter
+        txtPrice.SelectAll()
+    End Sub
+
+    Private Sub txtQuantity_Enter(sender As Object, e As EventArgs) Handles txtQuantity.Enter
+        txtQuantity.SelectAll()
+    End Sub
+
+    Private Sub ClearLabel(sender As Object, e As EventArgs) Handles txtPrice.TextChanged, txtQuantity.TextChanged
+        lblDiscount.Text = String.Empty
+        lblTotalDue.Text = String.Empty
     End Sub
 End Class
