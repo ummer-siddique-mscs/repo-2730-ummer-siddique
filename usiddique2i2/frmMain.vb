@@ -1,9 +1,9 @@
-﻿Option Explicit On
-Option Strict On
-Option Infer Off
-' Name:         Exercise 2 I 
+﻿' Name:         Exercise 2 I 
 ' Purpose:      Manipulates Strings
 ' Programmer:   Ummer Siddique on 11/05/2017
+Option Explicit On
+Option Strict On
+Option Infer Off
 
 Public Class frmMain
     Private Sub btnDisplay_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
