@@ -83,7 +83,7 @@ Public Class frmMain
     End Sub
 
     Private Sub btnCalcIfElseIf_Click(sender As Object, e As EventArgs) Handles btnCalcIfElseIf.Click
-        ' calculate discount and total due using If-ElseIf
+        'calculate discount and total due using If-ElseIf
         Dim dblPrice As Double
         Dim intQuantity As Integer
         Dim dblRate As Double = 0.0
