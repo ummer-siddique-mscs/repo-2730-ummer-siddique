@@ -119,7 +119,7 @@ Partial Class frmMain
         Me.GroupBox1.Size = New System.Drawing.Size(402, 307)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.GroupBox1.Text = "p348 #24 Multiplication Tables"
         '
         'GroupBox2
         '
