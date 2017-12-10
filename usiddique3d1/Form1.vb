@@ -19,15 +19,14 @@ Public Class Form1
             lblDays.Text = intdaysInMonth(intMonth - 1).ToString
             'otherwsie display the error message
         Else
-            lblDays.Text = "Error"
+            MessageBox.Show("Invalid month. Please Enter a number from 1 to 12.", "Month", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
-        'set focus to txtMonth
+        'set focus to txtMonth and select all text for txtMonth
         txtMonth.Focus()
-    End Sub
-    Private Sub txtMonth_Enter(sender As Object, e As EventArgs) Handles txtMonth.Enter
-        'select all text for txtMonth
         txtMonth.SelectAll()
     End Sub
+
+
 
     Private Sub btnDoLoop_Click(sender As Object, e As EventArgs) Handles btnDoLoop.Click
         ' displays the average number sold
